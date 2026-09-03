@@ -95,7 +95,7 @@ main {
 /*** WhoAmI Section ***/
 
 #WhoAmI {
-	min-height: 100dvh;
+	min-height: 100svh;
 	padding: 0 12%;
 
 	display: flex;
@@ -144,7 +144,7 @@ main {
 
 .project {
 	width: 80%;
-	min-height: 100dvh;
+	min-height: 100svh;
 
 	display: flex;
 	flex-direction: column-reverse;
@@ -156,7 +156,7 @@ main {
 }
 
 .project > video {
-	max-height: 60vh;
+	max-height: 60svh;
 	max-width: 100%;
 	border-radius: 20px;
 	box-shadow: 0 0 10px #4a4a4a;
