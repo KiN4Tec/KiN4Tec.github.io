@@ -9,6 +9,10 @@
 		<link rel="icon" href="assets/logo-black.svg" type="image/svg+xml" />
 		<link rel="stylesheet" href="styles.css" />
 
+		<link rel="prefetch" href="assets/projects/posters/url-shortener.png" as="image" fetchpriority="high" />
+		<link rel="prefetch" href="assets/projects/posters/numerone.png" as="image" fetchpriority="high" />
+		<link rel="prefetch" href="assets/projects/posters/simple-counter.png" as="image" />
+
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100..900&display=swap" />
@@ -56,7 +60,15 @@
 							</a>
 						</div>
 					</div>
-					<video muted loop autoplay playsinline src="assets/projects/url-shortener.mp4">
+					<video
+						loading="lazy"
+						preload="none"
+						muted
+						loop
+						autoplay
+						playsinline
+						poster="assets/projects/posters/url-shortener.png">
+						<source src="assets/projects/videos/url-shortener.mp4" />
 						Your browser does not support video
 					</video>
 				</div>
@@ -71,7 +83,15 @@
 							</a>
 						</div>
 					</div>
-					<video muted loop autoplay playsinline src="assets/projects/Numerone.mp4">
+					<video
+						loading="lazy"
+						preload="none"
+						muted
+						loop
+						autoplay
+						playsinline
+						poster="assets/projects/posters/numerone.png">
+						<source src="assets/projects/videos/numerone.mp4" />
 						Your browser does not support video
 					</video>
 				</div>
@@ -89,7 +109,16 @@
 							</a>
 						</div>
 					</div>
-					<video muted loop autoplay playsinline src="assets/projects/simple-counter.mp4">
+					<video
+						loading="lazy"
+						preload="none"
+						muted
+						loop
+						autoplay
+						playsinline
+						poster="assets/projects/posters/simple-counter.png">
+						<source src="assets/projects/webm-videos/simple-counter.webm" />
+						<source src="assets/projects/videos/simple-counter.mp4" />
 						Your browser does not support video
 					</video>
 				</div>
